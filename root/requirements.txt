@@ -1,0 +1,7 @@
+ansible==2.9.10
+ciscoconfparse==1.5.17
+genie==20.6.1
+napalm==2.5.0
+nornir==2.4.0
+openpyxl==3.0.4
+pyats==20.6

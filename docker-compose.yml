@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  netdevops:
+    image: michaelklose/netdevops
+    build:
+      context: .
+      dockerfile: Dockerfile
