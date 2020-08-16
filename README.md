@@ -3,13 +3,17 @@ based on official Ubuntu 20.04 docker container
 
 ### installed packages
 * build-essential
-* git 
+* git
+* iproute2
+* iputils-ping
 * nano
+* net-tools
 * nmap
-* python3 
-* python3-pip 
+* python3
+* python3-pip
 * python3-venv
 * tcpdump
+* traceroute
 
 ### installed python modules
 * [Ansible](https://www.ansible.com) 2.9.12
