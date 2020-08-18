@@ -1,5 +1,5 @@
 # netdevops-docker
-based on official Ubuntu 20.04 docker container
+based on official Ubuntu 18.04 docker container
 
 ### installed packages
 * build-essential

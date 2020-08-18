@@ -1,6 +1,6 @@
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 LABEL name=netdevops
-LABEL version=0.0.3
+LABEL version=0.0.4
 LABEL maintainer="m.klose@route4all.com"
 
 RUN \
