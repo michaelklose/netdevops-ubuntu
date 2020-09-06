@@ -2,25 +2,45 @@
 based on official Ubuntu 18.04 docker container
 
 ### installed packages
+* awscli
+* azure-cli
 * build-essential
+* curl
+* dnsutils
 * git
 * iproute2
 * iputils-ping
+* jq
+* less
 * nano
 * net-tools
 * nmap
+* pwsh
 * python3
 * python3-pip
 * python3-venv
 * tcpdump
+* terraform
+* tmux
 * traceroute
+* unzip
+* vim
+* wget
 
 ### installed python modules
-* [Ansible](https://www.ansible.com) 2.9.12
-* [CiscoConfParse](http://pennington.net/py/ciscoconfparse/) 1.5.19
-* [Genie](https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/) 20.7
-* [NAPALM](https://napalm-automation.net) 2.5.0
-* [Netmiko](https://pynet.twb-tech.com/blog/automation/netmiko.html) 2.4.2
-* [Nornir](https://github.com/nornir-automation/nornir) 2.4.0
-* [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/) 3.0.4
-* [pyATS](https://developer.cisco.com/pyats/) 20.7
+* [Ansible](https://www.ansible.com)
+* [CiscoConfParse](http://pennington.net/py/ciscoconfparse/)
+* cryptography (build in version has problems with Ansible and NX-OS)
+* [Genie](https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/)
+* [jc](https://github.com/kellyjonbrazil/jc)
+* [jtbl](https://github.com/kellyjonbrazil/jtbl)
+* [NAPALM](https://napalm-automation.net)
+* [Netmiko](https://pynet.twb-tech.com/blog/automation/netmiko.html)
+* [Nornir](https://github.com/nornir-automation/nornir)
+* [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
+* [pyATS](https://developer.cisco.com/pyats/)
+* [pymssql](https://github.com/pymssql/pymssql)
+* [rich](https://github.com/willmcgugan/rich)
+
+### installed powershell modules
+* [Az](https://github.com/Azure/azure-powershell)
