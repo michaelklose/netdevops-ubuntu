@@ -40,6 +40,7 @@ based on official Ubuntu 18.04 docker container
 * [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 * [pyATS](https://developer.cisco.com/pyats/)
 * [pymssql](https://github.com/pymssql/pymssql)
+* [pynetbox](https://github.com/digitalocean/pynetbox)
 * [rich](https://github.com/willmcgugan/rich)
 
 ### installed powershell modules
