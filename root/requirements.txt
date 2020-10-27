@@ -1,6 +1,6 @@
 ansible==2.9.13
 ciscoconfparse==1.5.19
-cryptography==3.1
+cryptography==3.2
 genie==20.8
 jc==1.13.4
 jtbl==1.1.6
