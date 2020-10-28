@@ -28,7 +28,9 @@ based on official Ubuntu 18.04 docker container
 * wget
 
 ### installed python modules
+* [asyncssh](https://github.com/ronf/asyncssh)
 * [Ansible](https://www.ansible.com)
+* [Boto3](https://github.com/boto/boto3)
 * [CiscoConfParse](http://pennington.net/py/ciscoconfparse/)
 * cryptography (build in version has problems with Ansible and NX-OS)
 * [Genie](https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/)
@@ -42,6 +44,7 @@ based on official Ubuntu 18.04 docker container
 * [pymssql](https://github.com/pymssql/pymssql)
 * [pynetbox](https://github.com/digitalocean/pynetbox)
 * [rich](https://github.com/willmcgugan/rich)
+* [ttp](https://github.com/dmulyalin/ttp)
 
 ### installed powershell modules
 * [Az](https://github.com/Azure/azure-powershell)
