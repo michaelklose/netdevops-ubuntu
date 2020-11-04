@@ -1,4 +1,4 @@
-# netdevops-docker
+# netdevops-ubuntu
 based on official Ubuntu 18.04 docker container
 
 ### installed packages
