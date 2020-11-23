@@ -1,9 +1,9 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 LABEL name=netdevops
-LABEL version=0.0.5
+LABEL version=0.0.8
 LABEL maintainer="m.klose@route4all.com"
 
-RUN apt-get update && apt-get -y upgrade && apt-get -y install \
+RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get -y install \
   apt-transport-https \
   build-essential \
   curl \
@@ -20,6 +20,7 @@ RUN apt-get update && apt-get -y upgrade && apt-get -y install \
   python3 \
   python3-dev \
   python3-venv \
+  software-properties-common \
   tcpdump \
   tmux \
   traceroute \
@@ -29,9 +30,10 @@ RUN apt-get update && apt-get -y upgrade && apt-get -y install \
 
 # Powershell Core & Az Modules
 RUN \
-  wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb && \
+  wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb && \
   dpkg -i packages-microsoft-prod.deb && \
   apt-get update && \
+  add-apt-repository universe && \
   apt-get install -y powershell && \
   pwsh -Command Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted && \
   pwsh -Command "Set-Variable -Name 'ProgressPreference' -Value 'SilentlyContinue' && Install-Module -Name Az -AllowClobber" && \
@@ -66,11 +68,12 @@ RUN \
   rm -rf /var/lib/apt/lists/* && \
   apt-get clean
 
-COPY root/requirements.txt /root
+COPY root/* /root
 # Create Python VENV and activate it
 RUN \
   python3 -m venv /root/venv && \
   . /root/venv/bin/activate && \
+  pip3 install --no-cache-dir -r /root/requirements-buildenv.txt && \ 
   pip3 install --no-cache-dir -r /root/requirements.txt
 
 # Adjust .bashrc
@@ -83,8 +86,3 @@ RUN \
   . /root/venv/bin/activate && \
   ansible-galaxy collection install clay584.genie && \
   ansible-galaxy collection install netbox.netbox
-
-# Download NTC-Templates
-RUN \
-  cd /root && \
-  git clone https://github.com/michaelklose/ntc-templates.git
