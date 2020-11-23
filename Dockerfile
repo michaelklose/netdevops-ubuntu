@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 LABEL name=netdevops
-LABEL version=0.0.8
+LABEL version=0.0.9
 LABEL maintainer="m.klose@route4all.com"
 
 RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get -y install \
@@ -68,7 +68,7 @@ RUN \
   rm -rf /var/lib/apt/lists/* && \
   apt-get clean
 
-COPY root/* /root
+COPY root/* /root/
 # Create Python VENV and activate it
 RUN \
   python3 -m venv /root/venv && \
