@@ -30,6 +30,7 @@ based on official Ubuntu 20.04 docker container
 ### installed python modules
 * [asyncssh](https://github.com/ronf/asyncssh)
 * [Ansible](https://www.ansible.com)
+* [ansible-pylibssh](https://ansible-pylibssh.readthedocs.io/en/latest/)
 * [Boto3](https://github.com/boto/boto3)
 * [CiscoConfParse](http://pennington.net/py/ciscoconfparse/)
 * cryptography (build in version has problems with Ansible and NX-OS)
@@ -49,3 +50,15 @@ based on official Ubuntu 20.04 docker container
 
 ### installed powershell modules
 * [Az](https://github.com/Azure/azure-powershell)
+
+If you have feedback please open an [issue](https://github.com/michaelklose/netdevops-ubuntu/issues) on GitHub.
+
+### installed Ansible Collections
+* [amazon.aws](https://galaxy.ansible.com/amazon/aws)
+* [ansible.netcommon](https://galaxy.ansible.com/ansible/netcommon)
+* [azure.azcollection](https://galaxy.ansible.com/azure/azcollection)
+* [cisco.aci](https://galaxy.ansible.com/cisco/aci)
+* [cisco.ios](https://galaxy.ansible.com/cisco/ios)
+* [cisco.nxos](https://galaxy.ansible.com/cisco/nxos)
+* [clay584.genie](https://galaxy.ansible.com/clay584/genie)
+* [netbox.netbox](https://galaxy.ansible.com/netbox/netbox)

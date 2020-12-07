@@ -84,5 +84,4 @@ RUN \
 # Install Ansible Collections
 RUN \
   . /root/venv/bin/activate && \
-  ansible-galaxy collection install clay584.genie && \
-  ansible-galaxy collection install netbox.netbox
+  ansible-galaxy collection install -r /root/requirements.yml
