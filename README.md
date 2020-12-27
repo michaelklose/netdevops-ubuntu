@@ -1,5 +1,8 @@
 # netdevops-ubuntu
-based on official Ubuntu 20.04 docker container
+based on official Ubuntu 20.04 docker container.
+If you have feedback please open an [issue](https://github.com/michaelklose/netdevops-ubuntu/issues) on GitHub.
+
+Python Packages are installed in a virtual environment (/root/venv) which is loaded per default.
 
 ### installed packages
 * awscli
@@ -33,7 +36,7 @@ based on official Ubuntu 20.04 docker container
 * [ansible-pylibssh](https://ansible-pylibssh.readthedocs.io/en/latest/)
 * [Boto3](https://github.com/boto/boto3)
 * [CiscoConfParse](http://pennington.net/py/ciscoconfparse/)
-* cryptography (build in version has problems with Ansible and NX-OS)
+* cryptography
 * [Genie](https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/)
 * [jc](https://github.com/kellyjonbrazil/jc)
 * [jtbl](https://github.com/kellyjonbrazil/jtbl)
@@ -44,14 +47,13 @@ based on official Ubuntu 20.04 docker container
 * [pyATS](https://developer.cisco.com/pyats/)
 * [pymssql](https://github.com/pymssql/pymssql)
 * [pynetbox](https://github.com/digitalocean/pynetbox)
+* [pytest](https://github.com/pytest-dev/pytest)
 * [rich](https://github.com/willmcgugan/rich)
 * [ttp](https://github.com/dmulyalin/ttp)
 * wheel
 
 ### installed powershell modules
 * [Az](https://github.com/Azure/azure-powershell)
-
-If you have feedback please open an [issue](https://github.com/michaelklose/netdevops-ubuntu/issues) on GitHub.
 
 ### installed Ansible Collections
 * [amazon.aws](https://galaxy.ansible.com/amazon/aws)

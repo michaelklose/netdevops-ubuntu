@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 LABEL name=netdevops
-LABEL version=0.1.0
+LABEL version=0.2.0
 LABEL maintainer="m.klose@route4all.com"
 
 RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get -y install \
