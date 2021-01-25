@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 LABEL name=netdevops
-LABEL version=0.2.0
+LABEL version=0.3.0
 LABEL maintainer="m.klose@route4all.com"
 
 RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get -y install \
@@ -46,6 +46,11 @@ RUN \
   unzip terraform.zip && \
   mv terraform /usr/local/bin && \
   rm terraform.zip
+
+# Pulumi
+RUN \
+  curl -fsSL https://get.pulumi.com | sh && \
+  echo "export PATH=$PATH:/root/.pulumi/bin" >> /root/.bashrc
 
 # AWS CLI
 RUN \
