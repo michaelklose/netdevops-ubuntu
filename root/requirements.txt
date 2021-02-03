@@ -1,4 +1,4 @@
-ansible==2.10.6
+ansible-base==2.10.5
 ansible-pylibssh==0.1.0
 asyncssh==2.5.0
 awxkit==17.0.1
