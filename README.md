@@ -18,6 +18,7 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 * nano
 * net-tools
 * nmap
+* pulumi
 * pwsh
 * python3
 * python3-pip
@@ -32,7 +33,7 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 
 ### installed python modules
 * [asyncssh](https://github.com/ronf/asyncssh)
-* [Ansible](https://www.ansible.com)
+* [ansible-base](https://www.ansible.com)
 * [ansible-pylibssh](https://ansible-pylibssh.readthedocs.io/en/latest/)
 * [Boto3](https://github.com/boto/boto3)
 * [CiscoConfParse](http://pennington.net/py/ciscoconfparse/)
