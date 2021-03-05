@@ -4,7 +4,7 @@ asyncssh==2.5.0
 awxkit==17.0.1
 boto3==1.17.21
 ciscoconfparse==1.5.30
-cryptography==3.3.1
+cryptography==3.3.2
 genie==21.2.1
 jc==1.14.4
 jtbl==1.1.6
