@@ -1,11 +1,11 @@
 ansible-base==2.10.7
 ansible-pylibssh==0.2.0
 asyncssh==2.5.0
-awxkit==17.1.0
-boto3==1.17.31
+awxkit==18.0.0
+boto3==1.17.44
 ciscoconfparse==1.5.30
 cryptography==3.3.1
-genie==21.2.2
+genie==21.3
 jc==1.14.4
 jtbl==1.1.6
 napalm==3.2.0
@@ -18,9 +18,9 @@ nornir-netbox==0.2.1
 nornir-netmiko==0.1.1
 nornir-utils==0.1.2
 openpyxl==3.0.7
-pyats==21.2
+pyats==21.3
 pymssql==2.1.5
 pynetbox==5.3.1
-pytest==6.2.2
-rich==9.13.0
+pytest==6.2.3
+rich==10.1.0
 ttp==0.6.0
