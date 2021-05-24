@@ -2,13 +2,14 @@ ansible==3.3.0
 ansible-pylibssh==0.2.0
 asyncssh==2.6.0
 awxkit==19.1.0
-boto3==1.17.69
+boto3==1.17.79
 ciscoconfparse==1.5.30
 cryptography==3.3.1
+dnacentersdk==2.2.2
 genie==21.4
-jc==1.15.3
+jc==1.15.4
 jtbl==1.1.6
-napalm==3.2.0
+napalm==3.3.0
 netmiko==3.4.0
 nornir==3.1.1
 nornir-ansible==2020.9.26
@@ -22,5 +23,5 @@ pyats[full]==21.4
 pymssql==2.2.1
 pynetbox==6.1.2
 pytest==6.2.4
-rich==10.1.0
-ttp==0.6.0
+rich==10.2.2
+ttp==0.7.1

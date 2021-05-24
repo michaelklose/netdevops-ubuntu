@@ -33,11 +33,12 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 
 ### installed python modules
 * [asyncssh](https://github.com/ronf/asyncssh)
-* [ansible-base](https://www.ansible.com)
+* [ansible](https://www.ansible.com)
 * [ansible-pylibssh](https://ansible-pylibssh.readthedocs.io/en/latest/)
 * [Boto3](https://github.com/boto/boto3)
 * [CiscoConfParse](http://pennington.net/py/ciscoconfparse/)
 * cryptography
+* [dnacentersdk](https://dnacentersdk.readthedocs.io/en/latest/)
 * [Genie](https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/)
 * [jc](https://github.com/kellyjonbrazil/jc)
 * [jtbl](https://github.com/kellyjonbrazil/jtbl)
