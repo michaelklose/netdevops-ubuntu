@@ -1,8 +1,8 @@
 ansible==4.1.0
 ansible-pylibssh==0.2.0
-asyncssh==2.6.0
+asyncssh==2.7.0
 awxkit==19.2.1
-boto3==1.17.97
+boto3==1.17.99
 ciscoconfparse==1.5.30
 cryptography==3.4.7
 dnacentersdk==2.2.4
