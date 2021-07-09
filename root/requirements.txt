@@ -2,7 +2,7 @@ ansible==4.2.0
 ansible-pylibssh==0.2.0
 asyncssh==2.7.0
 awxkit==19.2.2
-boto3==1.17.105
+boto3==1.17.108
 ciscoconfparse==1.5.30
 cryptography==3.4.7
 dnacentersdk==2.2.4
@@ -25,5 +25,5 @@ pybatfish==2021.4.12.882
 pymssql==2.2.1
 pynetbox==6.1.2
 pytest==6.2.4
-rich==10.4.0
+rich==10.5.0
 ttp==0.7.1
