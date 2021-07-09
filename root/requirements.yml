@@ -1,25 +1,4 @@
 ---
 collections:
-  - name: amazon.aws 
-    version: 1.5.0
-  
-  - name: ansible.netcommon
-    version: 2.2.0
-
-  - name: azure.azcollection
-    version: 1.7.0
-
-  - name: cisco.aci
-    version: 2.0.0
-  
-  - name: cisco.ios
-    version: 2.3.0
-
-  - name: cisco.nxos
-    version: 2.4.0
-
   - name: clay584.genie
     version: 0.1.11
-
-  - name: netbox.netbox
-    version: 3.1.1
