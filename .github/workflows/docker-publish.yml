@@ -37,3 +37,11 @@ jobs:
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
+        
+      - name: Update README
+        uses: ms-jpq/sync-dockerhub-readme@v1
+        with:
+          username: ${{ env.USERNAME }}
+          password: ${{ env.PASSWORD }}
+          repository: ${{ env.REGISTRY }}
+          readme: "./README.md"
