@@ -43,5 +43,5 @@ jobs:
         with:
           username: ${{ env.USERNAME }}
           password: ${{ env.PASSWORD }}
-          repository: ${{ env.REGISTRY }}
+          repository: ${{ env.IMAGE_NAME }}
           readme: "./README.md"
