@@ -39,9 +39,8 @@ jobs:
         run: echo ${{ steps.docker_build.outputs.digest }}
         
       - name: Update README
-        uses: ms-jpq/sync-dockerhub-readme@v1
+        uses: peter-evans/dockerhub-description@v2
         with:
           username: ${{ env.USERNAME }}
           password: ${{ env.PASSWORD }}
           repository: ${{ env.IMAGE_NAME }}
-          readme: "./README.md"
