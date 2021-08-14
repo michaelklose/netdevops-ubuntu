@@ -1,11 +1,11 @@
-ansible==4.3.0
+ansible==4.4.0
 ansible-pylibssh==0.2.0
 asyncssh==2.7.0
-awxkit==19.2.2
-boto3==1.18.16
+awxkit==19.3.0
+boto3==1.18.21
 ciscoconfparse==1.5.46
 cryptography==3.4.7
-dnacentersdk==2.2.5
+dnacentersdk==2.3.1
 genie==21.7
 jc==1.16.0
 jtbl==1.1.7
