@@ -39,6 +39,7 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 * [CiscoConfParse](http://pennington.net/py/ciscoconfparse/)
 * cryptography
 * [dnacentersdk](https://dnacentersdk.readthedocs.io/en/latest/)
+* [flake8](https://gitlab.com/pycqa/flake8)
 * [Genie](https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/)
 * [jc](https://github.com/kellyjonbrazil/jc)
 * [jtbl](https://github.com/kellyjonbrazil/jtbl)
@@ -49,6 +50,7 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 * [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/)
 * [pyATS](https://developer.cisco.com/pyats/)
 * [pybatfish](https://pybatfish.readthedocs.io/en/latest/)
+* [pylint](https://pylint.org)
 * [pymssql](https://github.com/pymssql/pymssql)
 * [pynetbox](https://github.com/digitalocean/pynetbox)
 * [pytest](https://github.com/pytest-dev/pytest)
