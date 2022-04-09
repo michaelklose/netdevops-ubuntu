@@ -1,10 +1,13 @@
+
 # netdevops-ubuntu
+
 based on official Ubuntu 20.04 docker container.
 If you have feedback please open an [issue](https://github.com/michaelklose/netdevops-ubuntu/issues) on GitHub.
 
 Python Packages are installed in a virtual environment (/root/venv) which is loaded per default.
 
-### installed packages
+## installed packages
+
 * awscli
 * azure-cli
 * build-essential
@@ -32,7 +35,8 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 * vim
 * wget
 
-### installed python modules
+## installed python modules
+
 * [asyncssh](https://github.com/ronf/asyncssh)
 * [ansible](https://www.ansible.com)
 * [ansible-pylibssh](https://ansible-pylibssh.readthedocs.io/en/latest/)
@@ -60,8 +64,10 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 * [ttp](https://github.com/dmulyalin/ttp)
 * wheel
 
-### installed powershell modules
+## installed powershell modules
+
 * [Az](https://github.com/Azure/azure-powershell)
 
-### installed Ansible Collections
+## installed ansible collections
+
 * [clay584.genie](https://galaxy.ansible.com/clay584/genie)
