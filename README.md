@@ -23,6 +23,7 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 * python3
 * python3-pip
 * python3-venv
+* sqlite
 * tcpdump
 * terraform
 * tmux
@@ -55,6 +56,7 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 * [pynetbox](https://github.com/digitalocean/pynetbox)
 * [pytest](https://github.com/pytest-dev/pytest)
 * [rich](https://github.com/willmcgugan/rich)
+* [sqlmodel](https://github.com/tiangolo/sqlmodel)
 * [ttp](https://github.com/dmulyalin/ttp)
 * wheel
 

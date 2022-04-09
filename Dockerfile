@@ -20,6 +20,7 @@ RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-g
   python3-dev \
   python3-venv \
   software-properties-common \
+  sqlite \
   tcpdump \
   tmux \
   traceroute \
