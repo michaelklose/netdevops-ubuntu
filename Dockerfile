@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 LABEL name=netdevops
 LABEL maintainer="m.klose@route4all.com"
 
@@ -30,7 +30,7 @@ RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-g
 
 # Powershell Core & Az Modules
 RUN \
-  wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb && \
+  wget -q https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb && \
   dpkg -i packages-microsoft-prod.deb && \
   apt-get update && \
   add-apt-repository universe && \
@@ -80,7 +80,7 @@ RUN \
   . /root/venv/bin/activate && \
   pip3 install --no-cache-dir -r /root/requirements-buildenv.txt && \ 
   pip3 install --no-cache-dir -r /root/requirements.txt && \
-  pip3 install --no-cache-dir -r /root/venv/lib/python3.8/site-packages/ansible_collections/azure/azcollection/requirements-azure.txt
+  pip3 install --no-cache-dir -r /root/venv/lib/python3.10/site-packages/ansible_collections/azure/azcollection/requirements-azure.txt
 
 # Adjust .bashrc
 RUN \
