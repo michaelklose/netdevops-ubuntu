@@ -4,7 +4,7 @@ asyncssh==2.12.0
 awxkit==21.7.0
 boto3==1.25.1
 ciscoconfparse==1.6.50
-cryptography==38.0.1
+cryptography==38.0.3
 dnacentersdk==2.5.4
 flake8==5.0.4
 genie==22.10
