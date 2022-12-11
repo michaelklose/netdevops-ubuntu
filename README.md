@@ -39,6 +39,7 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 
 * [asyncssh](https://github.com/ronf/asyncssh)
 * [ansible](https://www.ansible.com)
+* [ansible-lint](https://ansible-lint.readthedocs.io/)
 * [ansible-pylibssh](https://ansible-pylibssh.readthedocs.io/en/latest/)
 * [Boto3](https://github.com/boto/boto3)
 * [CiscoConfParse](http://pennington.net/py/ciscoconfparse/)
