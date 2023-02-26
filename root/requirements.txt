@@ -1,10 +1,10 @@
 ansible==7.2.0
-ansible-lint==6.12.1
+ansible-lint==6.13.1
 ansible-pylibssh==1.1.0
-asyncssh==2.13.0
-awxkit==21.11.0
-boto3==1.26.67
-ciscoconfparse==1.7.14
+asyncssh==2.13.1
+awxkit==21.12.0
+boto3==1.26.79
+ciscoconfparse==1.7.18
 cryptography==39.0.1
 dnacentersdk==2.5.6
 flake8==6.0.0
@@ -13,7 +13,7 @@ jc==1.22.5
 jtbl==1.5.0
 napalm==4.0.0
 netmiko==4.1.2
-netutils==1.4.0
+netutils==1.4.1
 nornir==3.3.0
 nornir-ansible==2022.7.30
 nornir-jinja2==0.2.0
@@ -24,7 +24,7 @@ nornir-utils==0.2.0
 openpyxl==3.1.0
 pyats[full]==23.1
 pybatfish==2022.9.7.77
-pylint==2.16.1
+pylint==2.16.2
 pymssql==2.2.7
 pynetbox==7.0.1
 pytest==7.2.1
