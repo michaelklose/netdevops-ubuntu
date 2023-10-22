@@ -80,7 +80,8 @@ RUN \
   . /root/venv/bin/activate && \
   pip3 install --no-cache-dir -r /root/requirements-buildenv.txt && \ 
   pip3 install --no-cache-dir -r /root/requirements.txt && \
-  pip3 install --no-cache-dir -r /root/venv/lib/python3.10/site-packages/ansible_collections/azure/azcollection/requirements-azure.txt
+  pip3 install --no-cache-dir -r /root/venv/lib/python3.10/site-packages/ansible_collections/azure/azcollection/requirements-azure.txt && \
+  pip3 install --no-cache-dir -r /root/requirements2.txt
 
 # Adjust .bashrc
 RUN \
