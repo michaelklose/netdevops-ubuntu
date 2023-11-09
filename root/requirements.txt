@@ -1,17 +1,17 @@
-ansible==8.5.0
+ansible==8.6.1
 ansible-pylibssh==1.1.0
-asyncssh==2.14.0
-awxkit==23.3.0
+asyncssh==2.14.1
+awxkit==23.4.0
 azure-cli-core==2.53.0
 azure-identity==1.14.1
-boto3==1.28.68
-ciscoconfparse==1.9.2
-cryptography==41.0.4
+boto3==1.28.83
+ciscoconfparse==1.9.28
+cryptography==41.0.5
 # dnacentersdk==2.6.9
 flake8==6.1.0
-genie==23.9
-jc==1.23.5
-jtbl==1.5.2
+genie==23.10
+jc==1.23.6
+jtbl==1.5.3
 napalm==4.1.0
 netmiko==4.2.0
 netutils==1.6.0
@@ -23,12 +23,12 @@ nornir-netbox==0.3.0
 # nornir-netmiko==1.0.0
 nornir-utils==0.2.0
 openpyxl==3.1.2
-pyats[full]==23.9
+pyats[full]==23.10
 pybatfish==2023.5.12.784
-pylint==3.0.1
-pymssql==2.2.9
+pylint==3.0.2
+pymssql==2.2.10
 pynetbox==7.2.0
-pytest==7.4.2
+pytest==7.4.3
 rich==13.6.0
-sqlmodel==0.0.8
+sqlmodel==0.0.11
 ttp==0.9.5
