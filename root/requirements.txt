@@ -1,6 +1,6 @@
 ansible==9.1.0
 ansible-pylibssh==1.1.0
-asyncssh==2.14.1
+asyncssh==2.14.2
 awxkit==23.5.1
 azure-cli-core==2.53.0
 azure-identity==1.14.1
