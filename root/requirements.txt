@@ -4,14 +4,14 @@ asyncssh==2.14.2
 awxkit==23.5.1
 azure-cli-core==2.53.0
 azure-identity==1.14.1
-boto3==1.33.9
+boto3==1.34.5
 ciscoconfparse==1.9.41
 cryptography==41.0.7
 # dnacentersdk==2.6.9
 flake8==6.1.0
 genie==23.11
-jc==1.23.6
-jtbl==1.5.3
+jc==1.24.0
+jtbl==1.6.0
 napalm==4.1.0
 netmiko==4.3.0
 netutils==1.6.0
@@ -24,8 +24,8 @@ nornir-netbox==0.3.0
 nornir-utils==0.2.0
 openpyxl==3.1.2
 pyats[full]==23.11
-pybatfish==2023.5.12.784
-pylint==3.0.2
+pybatfish==2023.12.16.1270
+pylint==3.0.3
 pymssql==2.2.11
 pynetbox==7.2.0
 pytest==7.4.3
