@@ -4,7 +4,7 @@ ansible-pylibssh==1.2.2
 asyncssh==2.16.0
 awxkit==24.6.1
 azure-cli-core==2.53.0
-azure-identity==1.14.1
+azure-identity==1.16.1
 boto3==1.35.10
 ciscoconfparse==1.9.51
 cryptography==43.0.0
