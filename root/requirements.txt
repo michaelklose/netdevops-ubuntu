@@ -7,7 +7,7 @@ azure-cli-core==2.53.0
 azure-identity==1.14.1
 boto3==1.35.10
 ciscoconfparse==1.9.51
-cryptography==43.0.0
+cryptography==43.0.1
 # dnacentersdk==2.6.9
 flake8==7.1.1
 genie==24.7
