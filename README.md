@@ -1,7 +1,7 @@
 
 # netdevops-ubuntu
 
-based on official Ubuntu 22.04 docker container.
+based on official Ubuntu 24.04 docker container.
 If you have feedback please open an [issue](https://github.com/michaelklose/netdevops-ubuntu/issues) on GitHub.
 
 Python Packages are installed in a virtual environment (/root/venv) which is loaded per default.
@@ -17,7 +17,6 @@ Python Packages are installed in a virtual environment (/root/venv) which is loa
 * iproute2
 * iputils-ping
 * jq
-* less
 * nano
 * net-tools
 * nmap
