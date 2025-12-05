@@ -1,4 +1,4 @@
-ansible==11.2.0
+ansible==12.0.0
 ansible-lint==25.1.2
 ansible-pylibssh==1.2.2
 asyncssh==2.19.0
