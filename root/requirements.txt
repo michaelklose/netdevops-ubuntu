@@ -1,7 +1,7 @@
 ansible==12.2.0
 ansible-lint==25.1.2
 ansible-pylibssh==1.2.2
-asyncssh==2.23.1
+asyncssh==2.24.0
 awxkit==24.6.1
 boto3==1.36.16
 ciscoconfparse==1.9.52
